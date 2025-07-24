@@ -1,28 +1,45 @@
-# DNSGhost 👻
+# 🕵️‍♂️ DNSGhost
 
-**Advanced Subdomain Enumeration Tool**  
-Created by [KRISHNA](https://github.com/rootkrishna/)— Founder of HEXAFORCE ALLIANCE, CYBER GUARDIAN, and elite hacktivist teams.
-
----
-
-## 📌 What is DNSGhost?
-
-**DNSGhost** is a fast, multithreaded subdomain discovery tool written in Python.  
-It helps you uncover hidden subdomains by brute-forcing DNS records using a wordlist — ideal for **bug bounty hunting**, **red teaming**, and **OSINT**.
+> **Author:** KRISHNA DUBEY  
+> 🔥 Founder of HEXAFORCE ALLIANCE | VIOLENT CYBER FORCE | CYBER GUARDIAN | ANTI-CYBER CRIME TASKFORCE  
+> 🧠 Ethical Hacker • AI Specialist • Cyber Warrior
 
 ---
 
-## 🚀 Features
+## 👻 What is DNSGhost?
 
-- 🧠 Fast & multithreaded
-- 🔍 Brute-force subdomains using a custom wordlist
-- 📜 Clean and simple Python code (easy to modify)
-- ⚠️ Automatically enters test mode if no args provided
-- 🧰 Designed by a real cybersecurity warrior — **KRISHNA**
+**DNSGhost** is a high-speed subdomain scanner and DNS reconnaissance tool built for ethical hackers, red teamers, and cyber researchers.
+
+It helps uncover hidden subdomains using a powerful wordlist-based brute-force technique.
 
 ---
 
-## 🛠️ Usage
+## ⚔️ Features
 
+- 🚀 Ultra-fast DNS resolution
+- 📡 Reveals hidden & forgotten subdomains
+- 🧠 Optimized for large wordlists
+- 💥 Terminal-based with clean output
+- 📁 Easy-to-edit Python script
+
+---
+
+## 🧪 How It Works
+
+- DNSGhost takes a **target domain** and a **wordlist** of possible subdomains.
+- It attempts to resolve each one.
+- Any valid subdomain found is printed in green ✅.
+
+---
+
+## 🔧 Requirements
+
+- Python 3.x  
+- Internet Connection  
+- A wordlist (e.g., `subdomains.txt`)
+
+Install dependencies:
 ```bash
+pip install -r requirements.txt
+
 python dnsghost.py <target-domain> <wordlist.txt>
